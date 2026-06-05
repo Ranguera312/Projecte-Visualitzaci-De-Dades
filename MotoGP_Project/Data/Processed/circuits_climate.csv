@@ -1,0 +1,71 @@
+circuit_name,country,lat,lon,climate_zone,avg_temp,annual_rainfall
+Albi,France,43.93,2.15,oceanic,14,730
+Algarve,Portugal,37.23,-8.63,mediterranean,17,500
+Anderstorp,Sweden,57.28,13.6,oceanic,7,700
+Aragón,Spain,41.08,-0.2,desert,15,380
+Assen,Netherlands,52.96,6.52,oceanic,10,800
+Belfast,United Kingdom,54.6,-5.93,oceanic,10,850
+Berne,Switzerland,46.95,7.45,oceanic,9,1050
+Brno,Czech Republic,49.2,16.63,oceanic,9,550
+Buriram,Thailand,14.95,103.1,tropical,28,1200
+Catalunya,Spain,41.57,2.26,mediterranean,16,600
+Clermont-Ferrand,France,45.79,3.16,oceanic,11,600
+Daytona,USA,29.19,-81.07,oceanic,22,1260
+Donington Park,United Kingdom,52.83,-1.38,oceanic,10,700
+Eastern Creek,Australia,-33.81,150.87,oceanic,18,800
+Estoril,Portugal,38.75,-9.39,mediterranean,17,700
+Geneva,Switzerland,46.2,6.15,oceanic,11,930
+Goiania,Brazil,-16.72,-49.24,tropical,24,1500
+Hedemora,Sweden,60.28,15.99,oceanic,5,600
+Hockenheim,Germany,49.33,8.57,oceanic,11,650
+Hungaroring,Hungary,47.58,19.25,oceanic,11,560
+Imatra,Finland,61.17,28.77,oceanic,4,650
+Imola,Italy,44.34,11.72,oceanic,14,750
+Indianapolis,USA,39.8,-86.23,oceanic,12,1100
+Interlagos,Brazil,-23.7,-46.7,oceanic,19,1450
+Isle of Man,United Kingdom,54.23,-4.55,oceanic,10,900
+Istanbul,Turkey,40.95,29.41,mediterranean,14,700
+Jarama,Spain,40.62,-3.58,mediterranean,15,430
+Jerez,Spain,36.71,-6.03,mediterranean,18,580
+Johor,Malaysia,1.48,103.9,tropical,27,2400
+Karlskoga,Sweden,59.35,14.5,oceanic,6,700
+Kristianstad,Sweden,56.05,14.15,oceanic,8,650
+Kyalami,South Africa,-25.99,28.07,oceanic,17,700
+Laguna Seca,USA,36.58,-121.75,mediterranean,14,480
+Le Mans,France,47.95,0.22,oceanic,12,700
+Losail,Qatar,25.49,51.45,desert,28,80
+Magny Cours,France,46.86,3.16,oceanic,11,800
+Misano,Italy,43.96,12.68,oceanic,14,700
+Montjuïc,Spain,41.36,2.17,mediterranean,16,600
+Monza,Italy,45.62,9.28,oceanic,13,1300
+Mosport,Canada,44.05,-78.68,oceanic,8,900
+Motegi,Japan,36.53,140.23,oceanic,13,1400
+Mugello,Italy,43.99,11.37,oceanic,13,900
+Nelson Piquet,Brazil,-22.98,-43.39,tropical,24,1100
+Nogaro,France,43.76,-0.04,oceanic,13,800
+Nurburgring,Germany,50.33,6.95,oceanic,8,900
+Opatija,Croatia,45.34,14.31,oceanic,14,1500
+Oscar A. Galvez,Argentina,-34.69,-58.46,oceanic,18,1200
+Paul Ricard,France,43.25,5.79,mediterranean,15,600
+Phakisa Freeway,South Africa,-27.87,27.5,desert,16,480
+Phillip Island,Australia,-38.5,145.23,oceanic,14,780
+Reims,France,49.25,4.03,oceanic,11,620
+Ricardo Tormo,Spain,39.48,-0.63,mediterranean,18,430
+Rijeka,Croatia,45.31,14.5,oceanic,14,1500
+Rouen,France,49.38,1.03,oceanic,11,850
+Río Hondo,Argentina,-27.5,-64.86,desert,21,520
+Sachsenring,Germany,50.79,12.69,oceanic,9,700
+Salzburgring,Austria,47.82,13.17,oceanic,9,1200
+San Carlos,Venezuela,9.66,-68.58,tropical,27,1200
+Sentul,Indonesia,-6.54,106.87,tropical,26,3500
+Sepang,Malaysia,2.76,101.74,tropical,27,2400
+Shah Alam,Malaysia,3.07,101.52,tropical,27,2400
+Shanghai,China,31.34,121.22,oceanic,17,1100
+Silverstone,United Kingdom,52.07,-1.02,oceanic,10,650
+Solitude,Germany,48.78,9.07,oceanic,10,700
+Spa-Francorchamps,Belgium,50.44,5.97,oceanic,9,1400
+Spielberg,Austria,47.22,14.76,oceanic,8,900
+Suzuka,Japan,34.84,136.54,oceanic,16,1800
+Tampere,Finland,61.5,23.77,oceanic,4,700
+Texas,USA,30.13,-97.64,oceanic,21,870
+Zolder,Belgium,50.99,5.26,oceanic,10,800
