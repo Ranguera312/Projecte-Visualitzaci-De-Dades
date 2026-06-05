@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llegendes de les Motos</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+
+    <!-- HERO -->
+
+    <header id="hero">
+
+        <div class="hero-content">
+
+            <h1>🏍️Llegendes de les Motos🏁</h1>
+
+            <p>
+                Descobreix més de 70 anys d'història de les curses de motos.
+            </p>
+
+        </div>
+
+    </header>
+
+    <!-- GLOBAL FILTERS -->
+
+    <section id="filters">
+
+        <div class="filter-group">
+
+            <label for="seasonFilter">
+                Any
+            </label>
+
+            <select id="seasonFilter">
+            </select>
+
+            <div class="filter-group">
+                <label for="categoryFilter">Categoria</label>
+                <select id="categoryFilter">
+                </select>
+            </div>
+
+        </div>
+
+       
+
+    </section>
+
+    <!-- TIMELINE -->
+
+    <section class="story-section">
+
+        <div class="text-panel">
+
+            <h2>
+                La crescuda de l'esport
+            </h2>
+
+            <p>
+                Al llarg dels anys, les curses de motos han evolucionat fins a
+                un dels esports de motor més coneguts mundialment. En aquesta 
+                gràfica es mostra com ha canviat el nombre de curses per any.
+            </p>
+
+        </div>
+
+        <div id="timeline" class="chart-container"></div>
+
+    </section>
+
+    <!-- TOP RIDERS -->
+
+    <section class="story-section">
+
+        <div class="text-panel">
+
+            <h2>
+                Els millors Pilots
+            </h2>
+
+            <p>
+                Quins pilots han aconseguit més punts en la seva cetegoria en 
+                un any?
+                
+            </p>
+
+        </div>
+
+        <div id="top-riders" class="chart-container"></div>
+
+    </section>
+
+    <!-- CONSISTENCY -->
+
+    <section class="story-section">
+
+        <div class="text-panel">
+
+            <h2>
+                Constància vs Rendiment
+            </h2>
+
+            <p>
+                Encara que guanyar sigui important, la constància pot acabar 
+                definint un campionat. En el gràfic es mostra la posició mitjana, 
+                els punts i l'index de constància de cada pilot.
+            </p>
+
+        </div>
+
+        <div id="consistency" class="chart-container"></div>
+
+    </section>
+
+    <!-- MANUFACTURERS -->
+
+    <section class="story-section">
+
+        <div class="text-panel">
+
+            <h2>
+                Domini dels fabricants
+            </h2>
+
+            <p>
+                Els pilots guanyen les curses, pero els fabricants
+                construeixen les motos. Explora quins fabricants han 
+                dominat cada any i categoria
+            </p>
+
+        </div>
+
+        <div id="manufacturers" class="chart-container"></div>
+
+    </section>
+
+    <!-- CLIMATE IMPACT -->
+
+    <section class="story-section">
+
+        <div class="text-panel">
+
+            <h2>
+                Impacte Climàtic
+            </h2>
+
+            <p>
+                Les condicions de la cursa poden variar la forma de córrer, com
+                canvia la velocitat amb el clima pot ser un factor determinant.
+            </p>
+
+        </div>
+
+        <div id="climate-impact" class="chart-container"></div>
+
+    </section>
+
+    <!-- CLIMATE SPECIALISTS -->
+
+    <section class="story-section">
+
+        <div class="text-panel">
+
+            <h2>
+                Especialistes Climàtics
+            </h2>
+
+            <p>
+                Alguns pilots destaquen per la seva habilitat en certs climes i
+                milloren el seu rendiment respecte a altres.
+            </p>
+
+        </div>
+
+        <div id="climate-specialists" class="chart-container">
+
+        <div id="radar-tropical"></div>
+
+        <div id="radar-desert"></div>
+
+        <div id="radar-mediterranean"></div>
+
+        <div id="radar-oceanic"></div>
+
+    </div>
+
+    </section>
+
+    <!-- HALL OF FAME -->
+
+    <section id="hall-of-fame">
+
+        <h2>
+            🎖️Saló de la Fama🎖️
+        </h2>
+
+        <p>
+            Un resum dels pilots i fabricants més importants.
+        </p>
+
+        <div id="hall-cards">
+
+            <div class="hall-card">
+
+                <h3>
+                    Millor pilot👑
+                </h3>
+
+                <div id="best-rider">
+                </div>
+
+            </div>
+
+            <div class="hall-card">
+
+                <h3>
+                    Pilot més constant🏆
+                </h3>
+
+                <div id="best-consistency">
+                </div>
+
+            </div>
+
+            <div class="hall-card">
+
+                <h3>
+                    Millor fabricant🛠️
+                </h3>
+
+                <div id="best-manufacturer">
+                </div>
+
+            </div>
+
+            
+        </div>
+
+    </section>
+
+    <!-- TOOLTIP -->
+
+    <div id="tooltip"></div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
